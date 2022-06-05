@@ -1,38 +1,94 @@
-.App {
+body
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+  background-image: linear-gradient(white, #fff9b2);
+}
+.imgres
+{
+  width: 100%;
+  height: auto;
+}
+.imgreslogo
+{
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.imgrestrophy
+{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 140px;
+  max-height: 600px;
+  margin-bottom: 20px;
+}
+.imgrestools
+{
+  width:100%;
+  height: auto;
+  max-height: 400px;
+  max-width: 900px;
+}
+.row 
+{
+  display: flex;
+}
+.column 
+{
+  flex: 50%;
+  padding: 10px;
+}
+hr
+{
+  border: 1px solid red;
+  margin-bottom: 10px;
+}
+.footerac
+{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.spanc
+{
+  color: red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secpara
+{
+  margin-left: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fcontent
+{
+  text-align: center;
+}
+.footerbc
+{
+  background-color: #ec3237;
+  height: 80px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.rowb 
+{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.columnb 
+{
+  display: table-cell;
+  text-align: center; 
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 768px) 
+{ 
+  .columnb 
+  {
+    display: block;
   }
 }
